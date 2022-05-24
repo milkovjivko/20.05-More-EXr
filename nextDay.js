@@ -4,7 +4,5 @@ function nextDay(year, month, day) {
     let newMonth = nextDay.getMonth() + 1;
     let newDate = nextDay.getDate();
     console.log(`${newYear}-${newMonth}-${newDate}`);
-
-
 }  
 nextDay (2020, 3, 24)
